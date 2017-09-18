@@ -1,0 +1,6 @@
+---
+#
+- id: terraform-lint
+  language: golang
+  entry: tflint
+  files: \.(tf)$
